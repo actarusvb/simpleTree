@@ -1,10 +1,10 @@
 {
-    "name": "@esciencecenter/simple-tree",
-    "version": "1.1.2",
+    "name": "@actarusvb/simple-tree",
+    "version": "1.0",
     "description": "Searchable Tree View jQuery Plugin",
     "repository": {
       "type": "git",
-      "url": "https://github.com/eScienceCenter/simpleTree.git"
+      "url": "https://github.com/actarusvb/simpleTree.git"
     },
     "author": "Michael Derntl <michael.derntl@uni-tuebingen.de>",
     "license": "MIT",
