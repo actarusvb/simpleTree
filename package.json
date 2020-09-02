@@ -6,7 +6,7 @@
       "type": "git",
       "url": "https://github.com/actarusvb/simpleTree.git"
     },
-    "author": "Michael Derntl <michael.derntl@uni-tuebingen.de>",
+    "author": "Stefano Bianchi <actarusvb@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "jquery": "^3.0.0"
