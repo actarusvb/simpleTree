@@ -1,7 +1,7 @@
 # simpleTree - A jQuery Plugin for Searchable Tree Views
 
-This plugin renders a tree view into any div container.
-This pluh-in is derived (or better slight modified) from @esciencecenter/simple-tree work.
+This plugin renders a tree view into any div container.<br>
+This plug-in is derived (or better slight modified) from @esciencecenter/simple-tree work.
 
 **Example Screenshot**
 
