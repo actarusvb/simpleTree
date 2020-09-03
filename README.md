@@ -37,6 +37,7 @@ simpleTree is available via NPM:
 * All node data must be provided upon initialization
 * Nodes cannot be added or removed at runtime
 * Only single nodes can be selected
+* To retrive the selected node ID you must user some like $(this).parent().attr('id')
 
 ## Initialization
 
@@ -89,6 +90,7 @@ var _defaults = {
 * `value` (any): The app's value to identify the node
 * `children` (array): An array of child nodes. Can be empty or omitted if this is a leaf node
 * `expanded` (boolean, optional): Determines whether the node, if it has children, will be initially displayed as expanded. (default: `false`)
+* `id` (string): The node ID, will be assignead as attribute
 
 An example `data` array:
 
@@ -96,14 +98,17 @@ An example `data` array:
 let data = [
    {
        label: 'Animals',
+       id: 'AniRoot',
        value: 'animals',
        children: [
            {
                label: 'Puppy the dog',
-               value: 'puppy'
+               value: 'puppy',
+               id: 'puppiId'
            }, {
                label: 'Pussy the cat',
-               value: 'pussy'
+               value: 'pussy',
+               id: 'TheCatAndTheHat'
            }
        ]
    }, {
